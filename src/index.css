@@ -1,10 +1,27 @@
+@import url('/src/assets/fonts/euclid-circular-b/stylesheet.css');
+
 html, body{
   width: 100%;
   height: 100%;
+  font-family: 'Euclid Circular B';
+    
+}
+
+input, button{
+  font-family: 'Euclid Circular B';
 }
 
 *{
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
+}
+
+button{
+  transition: transform 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+button:active{
+  transform: scale(0.8);
 }
