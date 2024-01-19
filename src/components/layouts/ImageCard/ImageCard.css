@@ -1,0 +1,25 @@
+.imageCard{
+    width: 364px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 11px;
+    flex-grow: 1;
+}
+
+.imageContainer{
+    width: 100%;
+    height: 242px;
+    border-radius: 7px;
+    overflow: hidden;
+    cursor: pointer;
+    background-color: lightgray;
+}
+
+
+.imageContainer img{
+    width: 100%;
+    height: 100%;
+    border-radius: 7px;
+    object-fit: cover;
+    object-position: center;
+}

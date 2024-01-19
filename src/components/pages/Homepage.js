@@ -11,7 +11,9 @@ const Homepage = () => {
                 Discover over 2,000,000 free Stock Images
             </h1>
 
-            <Searchbar />
+            <Searchbar 
+                placeholder="Search"
+            />
 
             <div className="trendingBar">
                 <p><span>Trending:</span> flowers, love, forest, river</p>

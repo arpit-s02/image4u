@@ -1,0 +1,19 @@
+.textSkeleton{
+    width: 20%;
+    height: 16px;
+    border-radius: 8px;
+}
+
+.skeleton{
+    animation: skeleton-animation 1s infinite linear;
+}
+
+@keyframes skeleton-animation{
+    0%{
+        background-color: lightgray;
+    }
+
+    100%{
+        background-color: #fff;
+    }
+}

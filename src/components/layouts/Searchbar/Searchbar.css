@@ -1,6 +1,7 @@
 .searchbar{
     width: 80%;
     max-width: 757px;
+    height: 68px;
     display: flex;
     align-items: center;
     column-gap: 20px;
@@ -15,6 +16,13 @@
 
 .searchbar:has(.searchInput:focus){
     width: 95%;
+}
+
+.searchbar form{
+    height: 100%;
+    display: flex;
+    gap: 20px;
+    flex-grow: 1;
 }
 
 .searchIcon{
@@ -34,6 +42,11 @@
     font-size: 17.813px;
     font-weight: 600;
     line-height: 19.95px;
+    /* text-transform: capitalize; */
+}
+
+.searchInput::first-letter{
+    text-transform: uppercase;
 }
 
 .searchInput::placeholder{

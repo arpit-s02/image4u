@@ -1,0 +1,15 @@
+.imageCardWrapper{
+    padding: 45px 36px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px 56px;
+}
+
+.noResultContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 8px;
+    flex-grow: 1;
+}
