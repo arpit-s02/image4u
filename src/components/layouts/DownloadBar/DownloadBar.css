@@ -1,0 +1,58 @@
+.downloadBar{
+    padding: 4px 16px;
+    border: 0.889px solid #DEE8F4;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+.downloadBar:first-child{
+    border-radius: 5.331px 5.331px 0px 0px;
+}
+
+.downloadBar:last-child{
+    border-radius: 0px 0px 5.331px 5.331px;
+}
+
+.downloadBar.active{
+    background: #F5F5F5;
+}
+
+.downloadBar > p{
+    color: #475467;
+    font-size: 12.44px;
+    font-weight: 400;
+    line-height: 21.325px;
+}
+
+.downloadBar > div{
+    display: flex;
+    align-items: center;
+    column-gap: 24px;
+}
+
+.resolution{
+    color: #475467;
+    font-size: 12.44px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 33.765px;
+}
+
+.radioIcon{
+    display: flex;
+    width: 14.217px;
+    height: 14.217px;
+    padding: 2.557px 2.774px 2.774px 2.557px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 7.108px;
+    border: 0.889px solid #DEE8F4;
+    background: var(--Base-White, #FFF);
+}
+
+.radioIcon.active{
+    border: 0.889px solid #4BC34B;
+    background: #4BC34B;
+}

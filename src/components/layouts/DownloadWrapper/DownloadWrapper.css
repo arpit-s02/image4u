@@ -1,0 +1,26 @@
+.downloadWrapper{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 24px;
+}
+
+.downloadWrapper header{
+    color: #3B4043;
+    font-size: 21.325px;
+    font-weight: 500;
+    line-height: 51.447px;
+}
+
+.downloadButton{
+    height: 37px;
+    border-radius: 4.443px;
+    background: #4BC34B;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 11.551px;
+    font-weight: 600;
+    line-height: 17.771px;
+    text-decoration: none;
+}

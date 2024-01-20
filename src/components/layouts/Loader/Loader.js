@@ -4,7 +4,7 @@ const Loader = () => {
 
     const skeletons = [];
 
-    for(let i = 0; i < 3; i++){
+    for(let i = 0; i < 6; i++){
         skeletons.push(
             <div className="imageCard" key={i}>
                 <div className="imageContainer skeleton"></div>

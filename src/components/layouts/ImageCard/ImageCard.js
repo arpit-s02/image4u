@@ -25,6 +25,7 @@ const ImageCard = ({imageData}) => {
                 <Modal 
                     imageData={imageData}
                     setShowModal={setShowModal}
+                    tags={tagsArray}
                 />
             )}
         </>

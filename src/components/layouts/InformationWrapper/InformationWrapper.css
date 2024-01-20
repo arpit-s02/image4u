@@ -1,0 +1,32 @@
+.informationWrapper h3{
+    color: #3B4043;
+    font-size: 21.325px;
+    font-weight: 500;
+    line-height: 51.447px;
+}
+
+.information{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 8px;
+}
+
+.information > div{
+    flex-shrink: 1;
+}
+
+.infoKey{
+    color: #717579;
+    font-size: 12.44px;
+    font-weight: 600;
+    line-height: 23.102px;
+    text-transform: capitalize;
+}
+
+.infoValue{
+    color: #3B4043;
+    font-size: 15.994px;
+    font-weight: 600;
+    line-height: 23.102px;
+    text-transform: capitalize;
+}

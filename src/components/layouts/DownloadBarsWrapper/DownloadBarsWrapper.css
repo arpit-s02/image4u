@@ -1,0 +1,5 @@
+.downloadBarsWrapper{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 22px;
+}

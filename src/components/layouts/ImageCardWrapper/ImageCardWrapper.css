@@ -1,7 +1,7 @@
 .imageCardWrapper{
     padding: 45px 36px;
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
     gap: 40px 56px;
 }
 
@@ -12,4 +12,16 @@
     align-items: center;
     row-gap: 8px;
     flex-grow: 1;
+}
+
+@media only screen and (min-width: 550px) {
+    .imageCardWrapper{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .imageCardWrapper{
+        grid-template-columns: repeat(3, 1fr);
+    }
 }
