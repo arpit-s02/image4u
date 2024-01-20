@@ -7,7 +7,7 @@
 .imageContainer{
     width: 100%;
     min-height: 200px;
-    max-height: 400px;
+    max-height: 250px;
     border-radius: 7px;
     overflow: hidden;
     cursor: pointer;

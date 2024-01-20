@@ -1,6 +1,7 @@
 .homepage{
-    min-height: 990px;
-    background: url(/src/assets/fuji.png), lightgray;
+    height: 990px;
+    background-image: url(https://picsum.photos/3000/2000);
+    background-color: lightgray;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;

@@ -1,5 +1,5 @@
-import Navbar from "../layouts/Navbar/Navbar";
-import Searchbar from "../layouts/Searchbar/Searchbar";
+import Navbar from "../../layouts/Navbar/Navbar";
+import Searchbar from "../../layouts/Searchbar/Searchbar";
 import "./Homepage.css"
 
 const Homepage = () => {

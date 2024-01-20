@@ -42,6 +42,7 @@
     line-height: 19.95px;
     text-decoration: none;
     width: max-content;
+    cursor: pointer;
 }
 
 .outline{

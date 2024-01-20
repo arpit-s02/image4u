@@ -12,7 +12,7 @@ const InformationWrapper = ({imageData}) => {
         },
         {
             id: 2,
-            'key': 'user_id',
+            'key': 'user ID',
             'value': user_id
         },
         {

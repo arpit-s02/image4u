@@ -16,8 +16,8 @@ const Navbar = () => {
 
                 {/* to be displayed on bigger screens */}
                 <div className="authLinks">
-                    <Link className="navLink">Login</Link>
-                    <Link className="navLink outline">Create Account</Link>
+                    <p className="navLink">Login</p>
+                    <p className="navLink outline">Create Account</p>
                 </div>
 
                 {/* to be displayed on smaller screens */}
@@ -32,8 +32,8 @@ const Navbar = () => {
             {/* to be displayed on smaller screens */}
             <div className={showMenu ? "menuItemsWrapper open" : "menuItemsWrapper"}>
                 <div className="menuItems" >
-                    <Link className="navLink">Login</Link>
-                    <Link className="navLink">Create Account</Link>
+                    <p className="navLink">Login</p>
+                    <p className="navLink">Create Account</p>
                 </div>
             </div>
         </nav>
